@@ -180,7 +180,7 @@ def model_training(Lat,Lon,StartDate,EndDate):
     LATESTMODEL = rf_classifier
     # Evaluate the model
     # print("Accuracy:", accuracy_score(y_test, y_pred))
-    return str(sum(rf_classifier.predict(X).tolist()))  + str(confusion_matrix(y,rf_classifier.predict(X)))
+    return "Model Trained"
     os.makedirs(MODELFOLDER, exist_ok=True)
     joblib.dump(rf_classifier, file_path)
     print(f"Model weights saved to '{file_path}'")
