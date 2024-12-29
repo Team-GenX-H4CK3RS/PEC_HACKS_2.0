@@ -1,0 +1,10 @@
+python-dotenv
+langchain
+pinecone-client
+sentence-transformers
+groq
+langchain-community
+langchain_groq
+langchain_pinecone
+langchain_huggingface
+pypdf
